@@ -29,33 +29,6 @@ A RESTful API for managing a simple library system, built with **Java 17**, **Sp
 - GitHub Actions (CI/CD)
 - JUnit & Mockito
 
----
-
-## 📁 Project Structure
-
-├── src/main/java/com/example/library
-│ ├── controller
-│ ├── service
-│ ├── repository
-│ ├── entity
-│ ├── dto
-│ ├── exception
-│ └── config
-├── src/test/java/com/example/library
-│ ├── controller/LibraryControllerTest.java
-│ ├── service/BookServiceTest.java
-│ └── service/BorrowServiceTest.java
-├── k8s/
-│ ├── deployment.yaml
-│ └── service.yaml
-├── .github/workflows/ci-cd.yml
-├── Dockerfile
-├── .dockerignore
-└── README.md
-
-
----
-
 ## 🛠 Setup Instructions
 
 ### 1. Run Locally
